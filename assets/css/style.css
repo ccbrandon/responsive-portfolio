@@ -13,8 +13,8 @@ body {
 /* general */
 
 .container {
-  width: 100%;
-  max-width: 960px;
+  width: 960px;
+  /* max-width: 960px; */
   margin: 0 auto;
   clear: both;
 }
@@ -214,4 +214,22 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 780px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 400px;
+  }
 }
